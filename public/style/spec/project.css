@@ -1,0 +1,11 @@
+/*************************************
+ * Styling sheet for projects page
+ *
+ * @author		Arbor Solutions, Inc.
+ * @developer	Tyler J Barnes
+ **************************************/
+.project-all { width: 90%; }
+.project-out { width: 95%; margin: 5% 15%; }
+.project-in { width: 90%; }
+.project-title { color: #565777; font-size: 1.4em; text-decoration: underline; text-align: center; margin-bottom: 55px; }
+.project-form { margin: 3% 10%; border-bottom: 2px solid #C5C5C5; width: 25%; }

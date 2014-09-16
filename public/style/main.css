@@ -1,0 +1,79 @@
+/**************************************
+ * main.css
+ * Bulk style sheet for the application
+ *
+ * @author		Arbor Solutions, Inc.
+ * @link		http://www.arbsol.com
+ * @developer	Tyler J Barnes
+ * @email		tbarnes@arbsol.com
+ *************************************/
+html, body, div, section, header, footer, embed, span, table, tr, td, th, ul, ol, li, p, textarea, label, input {
+	font-family: 'Averia Serif Libre', cursive;
+}
+
+/**		Global attributes		**/
+.mainContentHolder { width: 100%; height: auto; margin-top: 3%; margin-bottom: 120px; }
+.hidden { visibility: hidden; }
+.appError { font-size: .9em; color: red; }
+.navbar { position: relative; float: left; width: 10%; margin-top: 50px; }
+.linkUser a { color: #3B709C; font-size: 1.1em; text-decoration: underline; position: relative; top: -10px; }
+#homeIco { width: 32px; height: auto; }
+.userMenu { width: 100%; height: 100%; margin-top: 10px; border-top: 3px solid #BABEC2; }
+.menuGroupTitle { color: #2F3B46; font-size: 1.1em; text-decoration: underline; margin-top: 5px; }
+.menuList { list-style: none; position: relative; left: -15px; }
+.menuListTitle { margin-top: 20px; }
+.menuListItem { margin-top: 2px; }
+.menuList a { color: #25659B;  font-size: .9em; text-decoration: none; }
+.pageTitle { color:#5B5F62; font-size: 1.4em; font-weight: 600; text-decoration: underline; }
+
+
+/**		HEADER		**/
+.header { height: 10%; width: 100%;}
+.hdOuter { width: 20%; height: 90%; }
+.hdMid { width: 70%; height: 90%; }
+#hdLogo { width: 65%; height: auto; padding: 3px; }
+.hdSpacer { width: 100%; }
+.hdOuter .hdText { font-size: .85em; color: #626264; }
+.hdStrip { width: 100%; height: 5px; background-color: #82848A; }
+
+
+/**		LOGIN PG	**/
+.loginOuter { width: 100%; }
+.loginContent { width: 30%; margin: 10% auto; }
+.ttlLogin { margin-left: 15%;  font-size: 1.4em; color: #8A0000; font-weight: 600; }
+#tblLogin { margin-top: 5%; }
+#tblLogin td { padding: 2%; }
+#rememberMe { height: 11px; width: 11px; }
+.txtRememberMe {  color: #526375; font-size: .9em; }
+
+/**		HOME PG		**/
+.homeContent { margin: 10% 20%; }
+.homeGuide { margin: 5% 0; }
+.infoSetCard { padding: 15px; width: 25% }
+.cardBorderR { border-right: 1px solid #AFB4BD; }
+.cardBorderT { border-top: 1px solid #AFB4BD; }
+.infoSetImg { width: 72px; height: auto; }
+.infoSetImg:hover { opacity: 0.5; filter: alpha(opacity=50); }
+._ct { font-size: 1.1em; }
+._cp { color: #606266; font-size: 0.9em; }
+
+
+
+/**		SUCCESSFUL	**/
+.showSuccessful { height: 64px; width: 25%; margin: 5% auto; }
+.icoGrnStar { height: 32px; width: auto; z-index: 00; }
+.successNotifText { color: #5C5C5C; font-size: .95em; position: relative; top: -10px; z-index: 01; border-bottom: 1px solid #AFBECA; }
+.postSuccessAction { width: 100%; height: auto; }
+.menuIcons { width: 45%; height: auto; margin: 0 auto; }
+#btnLinkActions tr td { padding-left: 25px; padding-right: 25px; width: 350px; text-align: center; }
+.txtHypLnk { color: #43494F; text-decoration: none; font-size: .9em; }
+
+/**		WRAPPER		**/
+.wrapperBlock { min-height: 5%; height: 5%; }
+
+/**		FOOTER		**/
+.footMainContainer { width: 100%; height: 120px;  background-color: #B0B6BE; }
+.footContent table { width: 75%; margin: 75px auto; }
+.footContent table tr td { padding-left: 2%; padding-right: 2%; padding-top: 5px; }
+.footContent table td a { color: #1863D4; font-size: .95em; }
+.footParagraph { color: #47505E; font-size: .9em; }
